@@ -81,7 +81,6 @@ Get-ChildItem -Directory | Where-Object { $_.Name -match '^\d+-\d+-\d{4}$' } | F
     Rename-Item -Path $_.FullName -NewName $newName
     Write-Host "Переименовано: $oldName -> $newName"
 }
-
 # Скомпилированные классы
 *.class
 *.war
@@ -116,4 +115,4 @@ git init
 git add .
 git commit -m "Initial commit: complete project structure"
 git remote add origin https://github.com/Fossa25/GORIZONT_GAI_NEW.git
-git push -u origin main
+git push -u origin  master
