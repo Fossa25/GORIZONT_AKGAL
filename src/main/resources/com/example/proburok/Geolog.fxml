@@ -13,12 +13,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="AP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1050.0" prefWidth="1185.0" style="-fx-background-color: #eef2f3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proburok.job.GeologCOD">
+<AnchorPane fx:id="AP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1003.0" prefWidth="1147.0" style="-fx-background-color: #eef2f3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proburok.job.GeologCOD">
 
     <children>
         <ComboBox fx:id="gorbox" editable="true" layoutX="285.0" layoutY="66.0" prefHeight="43.0" prefWidth="184.0" />
-      <ComboBox fx:id="namebox" editable="true" layoutX="583.0" layoutY="66.0" prefHeight="43.0" prefWidth="518.0" />
-        <TextField fx:id="privazka" editable="false" layoutX="584.0" layoutY="157.0" prefHeight="43.0" prefWidth="518.0">
+      <ComboBox fx:id="namebox" editable="true" layoutX="583.0" layoutY="66.0" prefHeight="43.0" prefWidth="511.0" />
+        <TextField fx:id="privazka" editable="false" layoutX="584.0" layoutY="157.0" prefHeight="43.0" prefWidth="511.0">
             <font>
                 <Font size="14.0" />
             </font>
@@ -29,7 +29,7 @@
          </font>
       </TextField>
 
-              <TableView fx:id="dataTable" editable="true" layoutX="203.0" layoutY="986.0" prefHeight="58.0" prefWidth="667.0">
+              <TableView fx:id="dataTable" editable="true" layoutX="203.0" layoutY="986.0" prefHeight="58.0" prefWidth="667.0" visible="false">
             <columns>
                 <TableColumn fx:id="column1" prefWidth="93.0" text="№ Интервала" />
                 <TableColumn fx:id="column2" prefWidth="100.0" text="НАЧАЛО" />
@@ -42,23 +42,23 @@
             </columns>
         </TableView>
 
-      <ImageView fx:id="nom" fitHeight="294.0" fitWidth="1220.0" layoutX="267.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="nom" fitHeight="283.0" fitWidth="813.0" layoutX="285.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
 
          <image>
             <Image url="@assets/nom.PNG" />
          </image>
       </ImageView>
 
-      <Button fx:id="B1" layoutX="267.0" layoutY="527.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="103.0" style="-fx-background-color: #00000000; -fx-border-color: #000000; -fx-border-width: 0px;" />
-      <Button fx:id="B2" layoutX="546.0" layoutY="527.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="103.0" style="-fx-background-color: #00000000; -fx-border-color: #000000; -fx-border-width: 0px;" />
-      <Button fx:id="B3" layoutX="824.0" layoutY="527.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="103.0" style="-fx-background-color: #00000000; -fx-border-color: #000000; -fx-border-width: 0px;" />
-        <TextField fx:id="katigoria" editable="false" layoutX="285.0" layoutY="775.0" prefHeight="43.0" prefWidth="200.0">
+      <Button fx:id="B1" layoutX="284.0" layoutY="501.0" mnemonicParsing="false" prefHeight="124.0" prefWidth="100.0" style="-fx-background-color: #00000000; -fx-border-color: #000000; -fx-border-width: 0px;" />
+      <Button fx:id="B2" layoutX="549.0" layoutY="502.0" mnemonicParsing="false" prefHeight="124.0" prefWidth="100.0" style="-fx-background-color: #00000000; -fx-border-color: #000000; -fx-border-width: 0px;" />
+      <Button fx:id="B3" layoutX="813.0" layoutY="501.0" mnemonicParsing="false" prefHeight="124.0" prefWidth="100.0" style="-fx-background-color: #00000000; -fx-border-color: #000000; -fx-border-width: 0px;" />
+        <TextField fx:id="katigoria" editable="false" layoutX="285.0" layoutY="749.0" prefHeight="43.0" prefWidth="200.0">
             <font>
                 <Font size="14.0" />
             </font>
         </TextField>
 
-      <TextArea fx:id="opisanie" layoutX="604.0" layoutY="740.0" prefHeight="138.0" prefWidth="518.0" wrapText="true">
+      <TextArea fx:id="opisanie" layoutX="608.0" layoutY="701.0" prefHeight="138.0" prefWidth="487.0" wrapText="true">
          <font>
             <Font size="14.0" />
          </font>
@@ -67,19 +67,19 @@
 
 
 
-        <Button fx:id="singUpButtun" layoutX="921.0" layoutY="895.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="161.0" style="-fx-background-color: #aa9455; -fx-background-radius: 20px;" text="Сохранить данные" textFill="WHITE">
+        <Button fx:id="singUpButtun" layoutX="925.0" layoutY="856.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="161.0" style="-fx-background-color: #aa9455; -fx-background-radius: 20px;" text="Сохранить данные" textFill="WHITE">
             <font>
                 <Font name="Verdana" size="14.0" />
             </font>
         </Button>
-      <AnchorPane layoutY="-6.0" prefHeight="1056.0" prefWidth="203.0" style="-fx-background-color: #ffffff;">
+      <AnchorPane layoutY="-6.0" prefHeight="1009.0" prefWidth="203.0" style="-fx-background-color: #ffffff;">
          <children>
               <ImageView fitHeight="101.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                   <image>
                       <Image url="@assets/IMG_4772.JPG" />
                   </image>
               </ImageView>
-            <ImageView fx:id="instr" fitHeight="61.0" fitWidth="58.0" layoutX="14.0" layoutY="963.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="instr" fitHeight="61.0" fitWidth="58.0" layoutX="14.0" layoutY="921.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/instr.jpg" />
                </image>
@@ -127,39 +127,39 @@
                 <Font size="14.0" />
             </font>
         </TextField>
-      <Label layoutX="558.0" layoutY="218.0" prefHeight="43.0" prefWidth="232.0" text="ГРАФИЧЕСКИЕ МАТЕРИАЛЫ">
+      <Label layoutX="576.0" layoutY="218.0" prefHeight="43.0" prefWidth="232.0" text="ГРАФИЧЕСКИЕ МАТЕРИАЛЫ">
          <font>
             <Font name="Verdana" size="15.0" />
          </font>
       </Label>
-      <AnchorPane layoutX="275.0" layoutY="261.0" prefHeight="100.0" prefWidth="847.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10px; -fx-border-color: #a2a2a2; -fx-border-radius: 10px;">
+      <AnchorPane layoutX="285.0" layoutY="261.0" prefHeight="83.0" prefWidth="813.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10px; -fx-border-color: #a2a2a2; -fx-border-radius: 10px;">
          <children>
-            <Label layoutX="166.0" layoutY="31.0" prefHeight="43.0" prefWidth="130.0" text="План выработки">
+            <Label layoutX="167.0" layoutY="22.0" prefHeight="43.0" prefWidth="130.0" text="План выработки">
                <font>
                   <Font name="Verdana" size="14.0" />
                </font>
             </Label>
-            <ImageView fx:id="PlanVKL" fitHeight="45.0" fitWidth="45.0" layoutX="313.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" visible="false">
+            <ImageView fx:id="PlanVKL" fitHeight="45.0" fitWidth="45.0" layoutX="314.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" visible="false">
                <image>
                   <Image url="@assets/silkaA.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="PlanVKLNe" fitHeight="45.0" fitWidth="45.0" layoutX="313.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="PlanVKLNe" fitHeight="45.0" fitWidth="45.0" layoutX="314.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/silkaN.jpg" />
                </image>
             </ImageView>
-            <Label layoutX="440.0" layoutY="28.0" prefHeight="43.0" prefWidth="155.0" text="Разрез разрез">
+            <Label layoutX="469.0" layoutY="22.0" prefHeight="43.0" prefWidth="78.0" text="Разрез ">
                <font>
                   <Font name="Verdana" size="14.0" />
                </font>
             </Label>
-            <ImageView fx:id="PoperVKL" fitHeight="45.0" fitWidth="45.0" layoutX="573.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" visible="false">
+            <ImageView fx:id="PoperVKL" fitHeight="45.0" fitWidth="45.0" layoutX="574.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" visible="false">
                <image>
                   <Image url="@assets/silkaA.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="PoperVKLNe" fitHeight="45.0" fitWidth="45.0" layoutX="573.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="PoperVKLNe" fitHeight="45.0" fitWidth="45.0" layoutX="574.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/silkaN.jpg" />
                </image>
@@ -182,30 +182,30 @@
          <font>
             <Font name="Verdana" size="12.0" />
          </font></Label>
-      <Label fx:id="Lb_Klass" layoutX="285.0" layoutY="740.0" prefHeight="43.0" prefWidth="228.0" text="ГЕОЛ. КЛАСС УСТОЙЧИВОСТИ">
+      <Label fx:id="Lb_Klass" layoutX="285.0" layoutY="717.0" prefHeight="43.0" prefWidth="228.0" text="ГЕОЛ. КЛАСС УСТОЙЧИВОСТИ">
          <font>
             <Font name="Verdana" size="12.0" />
          </font></Label>
-      <Label fx:id="Lb_Opis" layoutX="605.0" layoutY="705.0" prefHeight="43.0" prefWidth="228.0" text="ГЕОЛОГИЧЕСКОЕ ОПИСАНИЕ">
+      <Label fx:id="Lb_Opis" layoutX="609.0" layoutY="666.0" prefHeight="43.0" prefWidth="228.0" text="ГЕОЛОГИЧЕСКОЕ ОПИСАНИЕ">
          <font>
             <Font name="Verdana" size="12.0" />
          </font></Label>
-      <CheckBox fx:id="cb" layoutX="668.0" layoutY="903.0" mnemonicParsing="false" text="Создать дополнение">
+      <CheckBox fx:id="cb" layoutX="672.0" layoutY="864.0" mnemonicParsing="false" text="Создать дополнение">
          <font>
             <Font name="Verdana" size="14.0" />
          </font>
       </CheckBox>
-       <ImageView fx:id="dokumGeolog" fitHeight="61.0" fitWidth="58.0" layoutX="620.0" layoutY="957.0" pickOnBounds="true" preserveRatio="true">
+       <ImageView fx:id="dokumGeolog" fitHeight="61.0" fitWidth="58.0" layoutX="620.0" layoutY="921.0" pickOnBounds="true" preserveRatio="true">
            <image>
                <Image url="@assets/iconGeolog.jpg" />
            </image>
        </ImageView>
-       <ImageView fx:id="dokumGeolog11" fitHeight="61.0" fitWidth="58.0" layoutX="720.0" layoutY="957.0" pickOnBounds="true" preserveRatio="true">
+       <ImageView fx:id="dokumGeolog11" fitHeight="61.0" fitWidth="58.0" layoutX="720.0" layoutY="921.0" pickOnBounds="true" preserveRatio="true">
            <image>
                <Image url="@assets/albom.jpg" />
            </image>
        </ImageView>
-      <ImageView fx:id="tabl" fitHeight="61.0" fitWidth="58.0" layoutX="520.0" layoutY="957.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="tabl" fitHeight="61.0" fitWidth="58.0" layoutX="520.0" layoutY="921.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets/BDA.jpg" />
          </image>

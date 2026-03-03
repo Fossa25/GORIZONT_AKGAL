@@ -274,8 +274,8 @@ public class GeologCOD extends Configs {
     }
 
     private void animateNodes(boolean moveUp) {
-        double targetY = moveUp ? -100 : 0;
-        double targetY1 = moveUp ? +50 : 0;
+        double targetY = moveUp ? -130 : 0;
+        double targetY1 = moveUp ? +40 : 0;
 
         for (Node node : nodesToAnimate) {
             animateSingleNode(node, targetY);

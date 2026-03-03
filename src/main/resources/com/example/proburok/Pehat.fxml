@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1045.0" prefWidth="1036.0" style="-fx-background-color: #eef2f3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proburok.job.PehatCOD">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="936.0" prefWidth="1036.0" style="-fx-background-color: #eef2f3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proburok.job.PehatCOD">
 
     <children>
         <TableView fx:id="dataTable" editable="true" layoutX="250.0" layoutY="620.0" prefHeight="100.0" prefWidth="740.0">
@@ -83,19 +83,19 @@
             <Font name="Verdana" size="14.0" />
          </font>
       </TextField>
-        <Button fx:id="singUpButtun1" layoutX="797.0" layoutY="934.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="193.0" style="-fx-background-color: #aa9455; -fx-background-radius: 20px;" text="Сохранить примечание" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+        <Button fx:id="singUpButtun1" layoutX="796.0" layoutY="851.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="193.0" style="-fx-background-color: #aa9455; -fx-background-radius: 20px;" text="Сохранить примечание" textAlignment="CENTER" textFill="WHITE" wrapText="true">
             <font>
                 <Font name="Verdana" size="14.0" />
             </font>
         </Button>
 
-        <CheckBox fx:id="cb" layoutX="250.0" layoutY="867.0" mnemonicParsing="false" text="Создать примечание">
+        <CheckBox fx:id="cb" layoutX="251.0" layoutY="777.0" mnemonicParsing="false" text="Создать примечание">
 
             <font>
                 <Font name="Verdana" size="14.0" />
             </font>
         </CheckBox>
-        <TextArea fx:id="primhanie" editable="true" layoutX="250.0" layoutY="904.0" prefHeight="73.0" prefWidth="439.0" promptText="ПРИМЕЧАНИЕ" wrapText="true">
+        <TextArea fx:id="primhanie" editable="true" layoutX="250.0" layoutY="843.0" prefHeight="58.0" prefWidth="439.0" promptText="ПРИМЕЧАНИЕ" wrapText="true">
             <font>
                 <Font name="Verdana" size="14.0" />
             </font>
@@ -179,7 +179,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="-2.0" prefHeight="1045.0" prefWidth="155.0" style="-fx-background-color: #ffffff;">
+      <AnchorPane layoutX="-2.0" prefHeight="936.0" prefWidth="205.0" style="-fx-background-color: #ffffff;">
          <children>
             <ImageView fitHeight="101.0" fitWidth="200.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -201,7 +201,7 @@
                   <Image url="@assets/GeomexN.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="instr" fitHeight="61.0" fitWidth="58.0" layoutX="19.0" layoutY="949.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="instr" fitHeight="61.0" fitWidth="58.0" layoutX="19.0" layoutY="822.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/instr.jpg" />
                </image>
@@ -322,14 +322,14 @@
             <Font name="Verdana" size="12.0" />
          </font>
       </Label>
-      <Button fx:id="singUpButtun2" layoutX="806.0" layoutY="790.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="185.0" style="-fx-background-color: #aa9455; -fx-background-radius: 20px;" text="Создать дополнение" textFill="WHITE">
+      <Button fx:id="singUpButtun2" layoutX="806.0" layoutY="763.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="185.0" style="-fx-background-color: #aa9455; -fx-background-radius: 20px;" text="Создать дополнение" textFill="WHITE">
          <font>
             <Font name="Verdana" size="14.0" />
          </font>
       </Button>
-      <AnchorPane fx:id="DOP_MENU" layoutX="478.0" layoutY="769.0" prefHeight="86.0" prefWidth="308.0" style="-fx-background-color: #eef2f3;">
+      <AnchorPane fx:id="DOP_MENU" layoutX="478.0" layoutY="742.0" prefHeight="73.0" prefWidth="308.0" style="-fx-background-color: #eef2f3;">
          <children>
-            <Label layoutX="9.0" layoutY="22.0" prefHeight="43.0" prefWidth="161.0" text="План выработки доп.">
+            <Label layoutX="9.0" layoutY="22.0" prefHeight="43.0" prefWidth="176.0" text="План выработки (доп.)">
                <font>
                   <Font name="Verdana" size="14.0" />
                </font>
