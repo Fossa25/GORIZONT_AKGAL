@@ -84,7 +84,7 @@
                   <Image url="@assets/instr.jpg" />
                </image>
             </ImageView>
-      
+
             <TextField fx:id="idi" layoutX="32.0" layoutY="161.0" prefHeight="43.0" prefWidth="139.0" promptText="idi">
                <font>
                   <Font size="14.0" />
